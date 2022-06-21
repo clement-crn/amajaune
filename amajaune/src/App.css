@@ -1,0 +1,11 @@
+.App{
+  height: 1200px;
+  font-family: Amazon-Ember-Medium;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+  font-family:'Amazon-Ember-Medium';
+  src:url(./Ember/Amazon-Ember-Medium.ttf)format("truetype");
+}

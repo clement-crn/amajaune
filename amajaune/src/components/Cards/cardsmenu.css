@@ -1,0 +1,11 @@
+.cardsmenu-container{
+    
+    z-index: 5;
+    position: absolute;
+    height: 600px;
+    background: transparent;
+    
+    width: 1200px;
+    margin-left: 50px;
+    top: 47%;
+}

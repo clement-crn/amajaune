@@ -1,0 +1,66 @@
+
+
+
+
+
+.amajaune{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+
+.navbar{
+    background-color: #131921;
+    position: relative;
+    color: white;
+    font-family: Amazon-Ember-Medium;
+    position: relative;
+    min-width: 1000px;
+    display: block;
+    
+}
+
+.navbar-haut ul {
+    display: flex;
+    height: 50px;
+    padding-top: 10px;
+    flex-direction: row;
+    margin: 0;
+    list-style-type: none;
+    
+    align-items: center;
+}
+
+.navbar-haut li {
+    margin-left: 30px;
+    text-decoration: none;
+    
+    overflow: hidden;
+    
+}
+
+.navbar-bas ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #23303e;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar-bas li {
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 30px;
+}
+
+.bonjour{
+    font-size: 50%;
+}
+
+@font-face{
+    font-family:'Amazon-Ember-Medium';
+    src:url(../../Ember/Amazon-Ember-Medium.ttf)format("truetype");
+}
+
