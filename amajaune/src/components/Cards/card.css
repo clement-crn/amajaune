@@ -1,100 +1,33 @@
-.carda{
-    background-color: rgb(255, 255, 255); height: 500px;
-    width: 385px;
-    padding: 20px;
-    margin: 20px;
-   
-   
-}
-
-
-.card-title-a {
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px;
-    padding-bottom: 20px;
-    white-space:nowrap;
+.card-container{
+    margin: 0;
+    height: 900px;
     display: flex;
-   
-    
+    flex-wrap: wrap;
+ 
+  }
+  
+  .card{
+    width:350px;
+    height: 420px;
+    margin-left: 40px;
+    background-color: white;
+    margin-top: 3vh;
+  }
+
+.cardtitle{
+  font-size: 20px;
+  white-space: nowrap;
+  margin: 10px;
 }
 
-.card-image-a{
-   height: auto;
+.images-card{
+  height: auto;
+  width: 300px;
+  margin: 25px;
 }
 
-.card-about-a{
-    color: blue;
-    display: flex;
-    margin-top: 80px;
-}
-
-.cards {
-    display: flex;
-    white-space: nowrap;
-}
-
-.cardb{
-    background-color: rgb(255, 255, 255); height: 500px;
-    width: 385px;
-    padding: 20px;
-    margin: 20px;
-    white-space: nowrap;
-}
-
-
-.card-title-b{
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px;
-    padding-bottom: 20px;
-    
-}
-
-
-.card-about-b{
-    color: blue;
-    display: flex;
-    margin-top: 80px;
-}
-
-
-
-/*-----------*/
-
-.cardc{
-    background-color: rgb(255, 255, 255);
-    height: 500px;
-    width: 100%;
-    padding: 20px;
-    margin: 20px;
-   
-    white-space: nowrap;
-}
-
-
-.card-title-c{
-    font-size: 20px;
-    font-weight: 700;
-    padding: 10px;
-    padding-bottom: 20px;
-    white-space: nowrap;
-    
-}
-
-
-
-.card-about-c{
-    color: blue;
-    display: flex;
-    margin-top: 110px;
-}
-
-.line1 img{
-    margin: 10px;
-}
-
-.line2 img{
-    margin: 10px;
-    
+.about{
+ color: #55a0ae;
+ text-decoration: none;
+ margin-left: 25px;
 }

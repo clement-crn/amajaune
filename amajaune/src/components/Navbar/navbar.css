@@ -7,8 +7,32 @@
     text-decoration: none;
     font-size: 25px;
     color: white;
+    padding-bottom: 40px;
+    z-index: 10;
 }
 
+.adresse{
+    display: flex;
+    align-items: center;
+    z-index: 0;
+    
+}
+
+.commandes{
+    display: flex;
+    align-items: center;
+}
+
+
+.location-svg{
+    max-height: 20px;
+    margin: 10px;
+}
+
+.cart{
+    max-height: 24px;
+    margin-right: 7px;
+}
 
 .navbar{
     background-color: #131921;
@@ -16,8 +40,9 @@
     color: white;
     font-family: Amazon-Ember-Medium;
     position: relative;
-    min-width: 1000px;
+    min-width: 100%;
     display: block;
+    white-space: nowrap;
     
 }
 
@@ -56,7 +81,7 @@
 }
 
 .bonjour{
-    font-size: 50%;
+    font-size: 60%;
 }
 
 @font-face{
