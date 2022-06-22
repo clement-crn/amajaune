@@ -4,25 +4,24 @@
     display:flex;
     align-items: center;
     background: #f3f3f3 ;
-    color: black;
-    padding: 5px;
+    color: black; 
     font-size: 12px;
+    width: 400px;
 
-    padding: 0;
-    border: 1px solid red;
-    width: 200%;
- 
 }
 
+
+.search input{
+    width: 100%;
+}
 .barre {
     height: 30px;
-    width: 250px;
     margin: 0;
     padding: 0;
-   
+    width: 100%;
 }
 
 .searchcontainer{
-    width: 700px;
+  width: 100%; 
 }
 
