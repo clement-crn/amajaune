@@ -1,0 +1,48 @@
+.card_container {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 340px;
+    height: 420px;
+    background-color: white;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.card:not(:first-child) {
+    margin-left: 20px;
+}
+
+.cardtitle {
+    font-size: 20px;
+    font-weight: bold;
+    /* white-space: nowrap; */
+    margin: 10px;
+}
+
+.images_card {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about,
+.about:visited {
+    color: #55a0ae;
+    text-decoration: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .card_container2 {
+        display: none;
+    }
+}

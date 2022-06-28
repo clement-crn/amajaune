@@ -1,16 +1,13 @@
-
-import './searchbar.css'
-
+import styles from "./searchbar.module.css";
 
 export default function Searchbar() {
-    return(
-
-        <div className='searchcontainer'>
+    return (
+        <div className={styles.searchcontainer}>
             <div className="search">
-          <div className='categories'>Toutes nos categories</div>
-			  	<input className='barre' type="text" class="input" placeholder=""></input>
-				  <a className='fa fa-search'></a>
+                <div className="categories">Toutes nos categories</div>
+                <input className="barre" type="text" placeholder=""></input>
+                <a className="fa fa_search"></a>
+            </div>
         </div>
-        </div>
-    )
+    );
 }
